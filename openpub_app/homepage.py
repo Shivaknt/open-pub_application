@@ -9,6 +9,16 @@ st.title('''Welcome  to welcome page 😊😊😊😊
 st.image('png.png')
 
 
+# Experimental Feature
+
+uploaded_file = st.file_uploader(
+    "Choose your database", accept_multiple_files=False)
+if uploaded_file is not None:
+    file_name = uploaded_file
+else:
+    file_name = "data_dictionary.xlsx"
+
+
 st.header('Project Information 🥂🍻🥂')
 
 df = pd.read_csv("open_pubs_updated.csv")
