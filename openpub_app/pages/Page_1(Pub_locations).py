@@ -9,7 +9,7 @@ uploaded_file = st.file_uploader(
 if uploaded_file is not None:
     file_name = uploaded_file
 else:
-    file_name = "open_pubs_updated.csv"
+    file_name ="data_dictionary.xlsx"
 
 
 df = pd.read_csv("open_pubs_updated.csv")
