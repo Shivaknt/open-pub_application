@@ -5,7 +5,7 @@ from PIL import Image
 
 st.title('''Welcome  to welcome page 😊😊😊😊
           My new project-OPENPUB WEBAPP using Streamlit Webapp''')
-st.image('png.png')
+#st.image('png.png')
 
 
 # Experimental Feature
@@ -32,7 +32,7 @@ In order to impress your friends, you decided to create a Web Application
 with the data available in your hand. 
 ''')
 
-st.image('images.jpg')
+#st.image('images.jpg')
 
 st.header('DATA INFORMATION')
 
